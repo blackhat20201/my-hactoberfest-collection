@@ -10,9 +10,9 @@ void dequeue();
 void display();
 void create();
 int stack1[300], stack2[300];
-int top1 = -1, top2 = -1;
+int top1 = --, top2 = --;
 int c = 0;
-void main()
+int main()
 {
 int a;
 clrscr();

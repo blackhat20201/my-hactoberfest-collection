@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include<conio.h>
-#define FULL 10
+
 struct node
 {
 int data;

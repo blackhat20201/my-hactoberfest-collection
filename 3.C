@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-#define QUEUE_EMPTY_MAGIC 0xdeadbeef
 typedef struct _queue_t {
     int *arr;
     int rear, front, count, max;

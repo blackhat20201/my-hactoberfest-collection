@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* Functions and variables used */
 void push1(int);
 void push2(int);
 int pop1();
@@ -14,11 +13,11 @@ int stack1[100], stack2[100];
 int top1 = -1, top2 = -1;
 int count = 0;
 
-/* Main Function */
+
 int main()
 {
 int choice;
-printf("\nQUEUE USING STACKS IMPLEMENTATION\n\n");
+
 printf("\n1.ENQUEUE");
 printf("\n2.DEQUEUE");
 printf("\n3.DISPLAY");
@@ -117,4 +116,5 @@ for (i = 0;i <= top1;i++)
 printf(" %d ", stack1[i]);
 }
 printf("\n");
-}}
+}
+}
